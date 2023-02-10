@@ -63,3 +63,29 @@ button:hover {
     color: #fff;
     margin-bottom: 10px;
 }
+
+.remove,
+.error {
+    background-color: #f09191;
+}
+
+.success {
+    background-color: rgb(139, 253, 128);
+}
+
+.content {
+    width: 100vw;
+    display: flex;
+}
+
+.book {
+    width: 250px;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.book+.book {
+    margin-left: 50px;
+}
